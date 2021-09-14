@@ -918,16 +918,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.59.0",
+            "version": "v8.60.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "51d4755cc6232e7f8abb437567d713fa37661da2"
+                "reference": "44f16a31a1d4ac8a51605550d7796e2273984a48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/51d4755cc6232e7f8abb437567d713fa37661da2",
-                "reference": "51d4755cc6232e7f8abb437567d713fa37661da2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/44f16a31a1d4ac8a51605550d7796e2273984a48",
+                "reference": "44f16a31a1d4ac8a51605550d7796e2273984a48",
                 "shasum": ""
             },
             "require": {
@@ -1078,7 +1078,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2021-09-07T13:29:53+00:00"
+            "time": "2021-09-08T13:37:21+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -7361,12 +7361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "2253b042c4cf1a9413f44a1c224ef2f705517bfb"
+                "reference": "07bff2dda1a042b95afcbdb1542e6123829a4ed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2253b042c4cf1a9413f44a1c224ef2f705517bfb",
-                "reference": "2253b042c4cf1a9413f44a1c224ef2f705517bfb",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/07bff2dda1a042b95afcbdb1542e6123829a4ed6",
+                "reference": "07bff2dda1a042b95afcbdb1542e6123829a4ed6",
                 "shasum": ""
             },
             "conflict": {
@@ -7455,7 +7455,7 @@
                 "flarum/tags": "<=0.1-beta.13",
                 "fluidtypo3/vhs": "<5.1.1",
                 "fooman/tcpdf": "<6.2.22",
-                "forkcms/forkcms": "<5.8.3",
+                "forkcms/forkcms": "<=5.9.2",
                 "fossar/tcpdf-parser": "<6.2.22",
                 "francoisjacquet/rosariosis": "<6.5.1",
                 "friendsofsymfony/oauth2-php": "<1.3",
@@ -7582,7 +7582,7 @@
                 "shopware/core": "<=6.4.3",
                 "shopware/platform": "<=6.4.3",
                 "shopware/production": "<=6.3.5.2",
-                "shopware/shopware": "<=5.6.9",
+                "shopware/shopware": "<5.6.10",
                 "showdoc/showdoc": "<=2.9.8",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -7610,6 +7610,7 @@
                 "ssddanbrown/bookstack": "<0.29.2",
                 "stormpath/sdk": ">=0,<9.9.99",
                 "studio-42/elfinder": "<2.1.59",
+                "subrion/cms": "<=4.2.1",
                 "sulu/sulu": "<1.6.41|>=2,<2.0.10|>=2.1,<2.1.1",
                 "swiftmailer/swiftmailer": ">=4,<5.4.5",
                 "sylius/admin-bundle": ">=1,<1.0.17|>=1.1,<1.1.9|>=1.2,<1.2.2",
@@ -7746,7 +7747,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-07T23:02:49+00:00"
+            "time": "2021-09-08T18:03:47+00:00"
         },
         {
             "name": "sebastian/cli-parser",
