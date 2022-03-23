@@ -6865,16 +6865,16 @@
         },
         {
             "name": "jasonmccreary/laravel-test-assertions",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jasonmccreary/laravel-test-assertions.git",
-                "reference": "7d2fa95fb7e873b222469708979e4c9c57d98062"
+                "reference": "2547c0366f1ee9a2d58b031468b26edc63faef4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jasonmccreary/laravel-test-assertions/zipball/7d2fa95fb7e873b222469708979e4c9c57d98062",
-                "reference": "7d2fa95fb7e873b222469708979e4c9c57d98062",
+                "url": "https://api.github.com/repos/jasonmccreary/laravel-test-assertions/zipball/2547c0366f1ee9a2d58b031468b26edc63faef4e",
+                "reference": "2547c0366f1ee9a2d58b031468b26edc63faef4e",
                 "shasum": ""
             },
             "require": {
@@ -6909,9 +6909,9 @@
             "description": "A set of helpful assertions when testing Laravel applications.",
             "support": {
                 "issues": "https://github.com/jasonmccreary/laravel-test-assertions/issues",
-                "source": "https://github.com/jasonmccreary/laravel-test-assertions/tree/v2.1.0"
+                "source": "https://github.com/jasonmccreary/laravel-test-assertions/tree/v2.1.1"
             },
-            "time": "2022-02-09T12:43:23+00:00"
+            "time": "2022-03-08T14:47:39+00:00"
         },
         {
             "name": "laravel-shift/blueprint",
