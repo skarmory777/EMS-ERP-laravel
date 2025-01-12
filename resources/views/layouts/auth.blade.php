@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>{{ config('app.name', 'Map-OS') }}</title>
-    <meta name="title" content="Map-OS">
-    <meta name="description" content="Sistema de Controle de Ordens de Serviço">
-    <meta name="keywords" content="Map-OS, admin, OS, Ordem de Serviço, Laravel, dashboard">
+    <title>{{ config('app.name', 'EMS-ERP') }}</title>
+    <meta name="title" content="EMS-ERP">
+    <meta name="description" content="Sistema de Gestão e Controle de Condomínio">
+    <meta name="keywords" content="EMS-ERP, admin, OS, Ordem de Serviço, Laravel, dashboard">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mapos.com.br">
-    <meta property="og:title" content="Map-OS">
+    <meta property="og:url" content="https://emserp.com.br">
+    <meta property="og:title" content="EMS-ERP">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
