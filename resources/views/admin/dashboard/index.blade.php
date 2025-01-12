@@ -4,6 +4,6 @@
 
 @section('content')
 <div class="p-3">
-    <p>Map-OS Dashboard</p>
+    <p>EMS-ERP Dashboard</p>
 </div>
 @stop

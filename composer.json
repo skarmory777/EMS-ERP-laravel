@@ -1,11 +1,11 @@
 {
-    "name": "map-os/mapos",
+    "name": "ems-erp/condominio",
     "type": "project",
-    "description": "Map-OS - Sistema de Controle de Ordens de Serviço ",
+    "description": "Ems-ERP - Sistema de Gestão e Controle de Condomínio ",
     "keywords": [
         "framework",
         "laravel",
-        "mapos",
+        "condominio",
         "php"
     ],
     "license": "MIT",
