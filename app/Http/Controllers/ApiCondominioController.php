@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Condominio;
+use App\Models\Condominios;
 use Illuminate\Http\Request;
 
 class ApiCondominioController extends Controller
@@ -12,11 +12,27 @@ class ApiCondominioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function indexAll()
     {
-        $condominio = Condominio::all();
+        $registro = Condominios::all();
+        return mb_convert_encoding($registro->toJson(), 'UTF-8', 'auto');
+    }
 
-        return json_encode( $condominio );
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index($id)
+    {
+        $registro = Condominios::where("id", $id)->get();
+
+        if ($registro->count() == 0) {
+            abort(500, "Condomínio não encontrado.");
+        }
+
+        return mb_convert_encoding($registro->toJson(), 'UTF-8', 'auto');
     }
 
     /**
@@ -26,7 +42,7 @@ class ApiCondominioController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -36,8 +52,9 @@ class ApiCondominioController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
+    {      
+        $registro = Condominios::create($request->all());
+        return response()->json(["success"=>true, "msg"=>"Condomínio adicionado com sucesso!", "busca"=>$registro]);
     }
 
     /**
@@ -71,7 +88,15 @@ class ApiCondominioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $registro = Condominios::where("id", $id)->get();
+
+        if ($registro->count() == 0) {
+            abort(500, "Condomínio não encontrado.");
+        }
+
+        Condominios::find($id)->update($request->all());
+
+        return response()->json(["success"=>true, "msg"=>"Condomínio alterado com sucesso!"]);        
     }
 
     /**
@@ -82,6 +107,11 @@ class ApiCondominioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $registro = Condominios::find($id);
+        if ($registro->count()) {
+            $registro->delete();
+            return response()->json(["success"=>true, "msg"=>"Condomínio deletado com sucesso!"]);
+        }
+        return response()->json(["success"=>false, "msg"=>"Registro não encontrado"]);
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCondominio extends Migration
+class AddDeletedAtToCondominios extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,8 @@ class CreateCondominio extends Migration
      */
     public function up()
     {
-        Schema::create('condominio', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('condominios', function (Blueprint $table) {
+            //
         });
     }
 
@@ -26,6 +25,8 @@ class CreateCondominio extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('condominio');
+        Schema::table('condominios', function (Blueprint $table) {
+            //
+        });
     }
 }

@@ -19,7 +19,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/condominios', 'ApiCondominioController@index');
+Route::get('/condominios', 'ApiCondominioController@indexAll');
+Route::get('/condominios/{id}', 'ApiCondominioController@index');
+Route::post('/condominios/novo', 'ApiCondominioController@store');
+Route::put('/condominios/{id}', 'ApiCondominioController@update');
+Route::delete('/condominios/{id}', 'ApiCondominioController@destroy');
 
 
 // Funciona
