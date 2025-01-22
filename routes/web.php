@@ -47,4 +47,6 @@ Route::group([
 
     // Users
     Route::resource('/users', 'UserController');
+
+    Route::resource('/condominios', 'CondominioController');
 });

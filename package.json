@@ -42,6 +42,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.11.2",
+        "axios": "^1.4.0",
         "bootstrap": "5.0.0-alpha1",
         "chartist": "^0.11.4",
         "chartist-plugin-tooltips": "0.0.17",

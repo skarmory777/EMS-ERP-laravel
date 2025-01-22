@@ -39,7 +39,11 @@
                   </div>
               </div>              
             </div>
-          </div>    
+          </div>  
+          
+          <div id="renderResults">
+              Aqui Informações do comdominio
+          </div>
     </div>
 
 <p>EMS-ERP Dashboard</p>

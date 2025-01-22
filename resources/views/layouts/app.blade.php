@@ -114,6 +114,13 @@
     <script src="{{ asset('vendor/simplebar/dist/simplebar.min.js') }}"></script>
 
     <script src="{{ asset('js/app-min.js') }}" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    {{-- <script src="{{ asset('js/main-axios.js') }}" defer></script> --}}
+
+    <script src="{{ asset('js/index.js') }}" defer></script>    
+
     @yield('js')
 
     @livewireScripts
