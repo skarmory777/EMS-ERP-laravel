@@ -41,9 +41,9 @@
             </div>
           </div>  
           
-          <div id="renderResults">
+          {{-- <div id="renderResults">
               Aqui Informações do comdominio
-          </div>
+          </div> --}}
     </div>
 
 <p>EMS-ERP Dashboard</p>
